@@ -1,0 +1,46 @@
+
+public class Variables {
+
+	public static void main(String[] args){
+		
+	
+		int MiNumero = 5;
+		
+		float MiNumeroFlotante = 5.99f;
+		
+		char MiLetra = 'D';
+		
+		boolean MiBooleano = true;
+		
+		String MiTexto = "Hola";
+		
+		String PrimerNombre = "John ";
+		
+		String Apellido = "Doe";
+		
+		
+		String NombreCompleto = PrimerNombre + Apellido;
+		
+		System.out.println(MiNumero);
+		
+		System.out.println(MiNumeroFlotante);
+		
+		System.out.println(MiLetra);
+		
+		System.out.println(MiBooleano);
+		
+		System.out.println(MiTexto);
+		
+		System.out.println(NombreCompleto);
+		
+		int iNumeroX = 5, iNumeroY = 6;
+		
+		System.out.println(iNumeroX + iNumeroY);
+		
+		byte MiNumero2 = 100;
+		
+		System.out.println(MiNumero2);
+		
+	}//fin public static void main
+
+}//fin public class Variables
