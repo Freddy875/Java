@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author fer87
+ * @author Freddy875
  */
 public class ClaseMath2 {
 
