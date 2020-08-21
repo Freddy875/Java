@@ -61,7 +61,7 @@ public class Ordenar3NumerosDeMayorAMenor {
             
             JOptionPane.showMessageDialog(null,
                     iNumero1 + "," + iNumero2 + "," + iNumero3 + 
-                            "los tres números son iguales");
+                            " los tres números son iguales");
             
         }
         
