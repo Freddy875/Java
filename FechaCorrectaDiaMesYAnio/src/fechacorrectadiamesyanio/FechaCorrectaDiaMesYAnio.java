@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class FechaCorrectaDiaMesYAnio {
 
     /**
-     * Pedir el día, mes y anio de una fecha 
+     *  Pedir el día, mes y anio de una fecha 
      * E indicar si la fecha es correcta.
      * Suponga que todos los meses son de 30 días
      * 
