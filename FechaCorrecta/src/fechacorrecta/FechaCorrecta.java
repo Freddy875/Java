@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author fer87
+ * @author Freddy875
  */
 public class FechaCorrecta {
 
