@@ -77,7 +77,7 @@ public class CiclosWhile {
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.println("Ingresa cuantos números quieres ver en pantalla: ");
+        System.out.println("Ingresa cuántos números quieres ver en pantalla: ");
         
         iContador = entrada.nextInt();
         
@@ -97,7 +97,7 @@ public class CiclosWhile {
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.println("Ingresa cuantos números quieres ver en pantalla: ");
+        System.out.println("Ingresa cuántos números quieres ver en pantalla: ");
         
         iContador = entrada.nextInt();
         
