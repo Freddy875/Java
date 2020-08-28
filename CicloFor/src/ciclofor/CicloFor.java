@@ -48,6 +48,7 @@ public class CicloFor {
       
         */
         
+        /*
         int iNumero3, iContador;
         
         Scanner entrada = new Scanner(System.in);
@@ -59,6 +60,21 @@ public class CicloFor {
         for (iNumero3 = 0; iNumero3 <= iContador ; iNumero3++){
       
            System.out.println(iNumero3);
+       
+        }//fin for
+      
+        */
+        int iNumero4, iContador;
+        
+        Scanner entrada = new Scanner(System.in);
+               
+        System.out.println("Ingresa cuántos números quieres ver en pantalla: ");
+        
+        iContador = entrada.nextInt();
+        
+        for (iNumero4 = 0; iNumero4 <= iContador ; iNumero4++){
+      
+           System.out.println(iNumero4);
        
         }//fin for
       
