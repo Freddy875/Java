@@ -49,14 +49,11 @@ public class CicloFor {
         */
         
         /*
-<<<<<<< HEAD
         
         En este ciclo el usuario ingresa un cuantos números quiere ver en la 
         pantalla y se incrementan de uno en uno desde el 0 hasta el número
         que ingreso
         
-=======
->>>>>>> 48703ac260839ce6064da160761e6e6078e5d4b0
         int iNumero3, iContador;
         
         Scanner entrada = new Scanner(System.in);
