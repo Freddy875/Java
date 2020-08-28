@@ -49,11 +49,6 @@ public class CicloFor {
         */
         
         /*
-        
-        En este ciclo el usuario ingresa un cuantos números quiere ver en la 
-        pantalla y se incrementan de uno en uno desde el 0 hasta el número
-        que ingreso
-        
         int iNumero3, iContador;
         
         Scanner entrada = new Scanner(System.in);
@@ -69,13 +64,6 @@ public class CicloFor {
         }//fin for
       
         */
-        
-        /*
-        En este ciclo el usuario ingresa un cuantos números quiere ver en la 
-        pantalla y se incrementan de dos en dos desde el 0 hasta el número
-        que ingreso
-        */
-        
         int iNumero4, iContador;
         
         Scanner entrada = new Scanner(System.in);
@@ -84,11 +72,13 @@ public class CicloFor {
         
         iContador = entrada.nextInt();
         
-        for (iNumero4 = 0; iNumero4 <= iContador ; iNumero4+=2){
+        for (iNumero4 = 0; iNumero4 <= iContador ; iNumero4++){
       
            System.out.println(iNumero4);
        
         }//fin for
+      
+        
         
     }//fin public static void main
     
