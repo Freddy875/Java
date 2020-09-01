@@ -38,8 +38,7 @@ public class CalcularPromedio {
             iSuma += iNumero1;
             
             iElementos++;
-          
-        
+                  
             iNumero1 = Integer.parseInt(
                     JOptionPane.showInputDialog("Este programa calcula el promedio "
                 + "de todos los números que ingreses"
