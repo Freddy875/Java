@@ -5,6 +5,8 @@
  */
 package arreglos;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -53,24 +55,66 @@ public class Arreglos {
             
         }//fin for
 
-        //Llenar un arreglo
+        //Llenar un arreglo y mostrarlo con System.out.println
+
+        Scanner entrada = new Scanner(System.in);
+        //Usamos la entrada para leer cada uno de los elementos del arreglo
+
+        int nTamanio;
+        //Declaramos el tamanio del arreglo
+
+        nTamanio = Integer.parseInt(JOptionPane.showInputDialog(
+            "Ingresa la cantidad de elementos que deseas que tenga el arreglo"
+        ));
+        //Le pedimos al usuario que ingrese el tamanio que desea del arreglo
+
+        char[] cLetras1  = new char [nTamanio];
+
+        System.out.println("Ingresa los elementos del arreglo: ");
+        //Solicitamos al usuario que ingrese uno por uno los elementos del arreglo
+
+
+        //g es un contador
+        //Llenamos el arreglo
+        for(int gContador = 0; gContador<nTamanio; gContador++){
+
+            System.out.println("Ingresa el caracter " + (gContador+1) + " : ");
+
+            cLetras1[gContador] = entrada.next().charAt(0); 
+
+        }//fin for
+
+        //Mostramos los elementos del arreglo
+
+        System.out.println("\nLos caracteres del arreglo son: ");
+
+        //h es un contador
+        for(int hContador = 0; hContador < nTamanio; hContador++){
+
+            System.out.println(cLetras1[hContador]);
+
+        }//fin for
+
+        //Llenar un arreglo y mostrarlo con JOptionPane
+
 
         int nElementos;
         //Esta variable es para saber cuantos elementos tiene el arreglo
 
 
         nElementos = Integer.parseInt(JOptionPane.showInputDialog(
-            "Ingresa la cantidad de elementos que deseas que tenga el arreglo"));
+            "Ingresa la cantidad de elementos que deseas que tenga el arreglo"
+            ));
 
-        String[] cLetras = new String [nElementos];
+        String[] cLetras2 = new String [nElementos];
         //Aqui creamos el arreglo
         //Es un arreglo dinamico 
 
         //Llenamos el arreglo
         for(int iContador = 0; iContador < nElementos ; iContador++){
 
-            cLetras[iContador] = JOptionPane.showInputDialog(
-                "Ingresa el dato " + (iContador+1)
+            cLetras2[iContador] = JOptionPane.showInputDialog(
+                "Ingresa el caracter " + (iContador+1) + " : "
             ); 
 
         }//fin for
@@ -80,7 +124,7 @@ public class Arreglos {
         for(int jContador = 0; jContador < nElementos ; jContador++ ){
 
             JOptionPane.showMessageDialog(null,
-                "Los caracteres de arreglo son: " + cLetras[jContador]);
+                "Los caracteres de arreglo son: " + cLetras2[jContador]);
 
         }//fin for
         
