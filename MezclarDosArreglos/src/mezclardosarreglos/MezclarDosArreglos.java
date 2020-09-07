@@ -73,10 +73,12 @@ public class MezclarDosArreglos {
             "La combinación de ambos arreglos es: "
             + "\n" + (m+1) + " : " + iArregloC[m]);
 
+            /*
             System.out.println( 
             "La combinación de ambos arreglos es: "
             + "\n" + (m+1) + " : " + iArregloC[m]);
-
+            */
+            
         }//fin for
         
         
